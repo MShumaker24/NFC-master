@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NFC</string>
+    <string name="titleText">NFC?</string>
 </resources>
