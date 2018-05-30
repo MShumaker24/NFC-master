@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             toast.show();
         }
     }
-
+/*
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
@@ -46,4 +46,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
+   */
 }
