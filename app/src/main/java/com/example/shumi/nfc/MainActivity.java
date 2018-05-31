@@ -16,17 +16,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    NfcAdapter nfcAdapter;
+/*
+    NfcAdapter nfcAdapter = NfcAdapter.getDefaultAdapter(this);
 
     public void setNfcAdapter() {
         if (nfcAdapter != null && nfcAdapter.isEnabled()) {
-            Toast toast = Toast.makeText(this, "NFC Availible", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(this, "NFC Available", Toast.LENGTH_LONG);
             toast.show();
         } else {
-            Toast toast = Toast.makeText(this, "NFC not availible", Toast.LENGTH_LONG);
+            Toast toast = Toast.makeText(this, "NFC not available", Toast.LENGTH_LONG);
             toast.show();
         }
     }
+*/
+
+
 /*
     @Override
     protected void onNewIntent(Intent intent) {
