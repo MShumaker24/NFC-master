@@ -2,6 +2,7 @@ package com.example.shumi.nfc;
 
 import android.content.Intent;
 import android.nfc.NdefMessage;
+import android.nfc.NdefRecord;
 import android.nfc.NfcAdapter;
 import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    NdefRecord rtfUriRecord1 = NdefRecord.createUri("http://example.com");
 
 /*
     NfcAdapter nfcAdapter = NfcAdapter.getDefaultAdapter(this);
@@ -51,4 +54,5 @@ public class MainActivity extends AppCompatActivity {
 
     //Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
    */
+
 }
