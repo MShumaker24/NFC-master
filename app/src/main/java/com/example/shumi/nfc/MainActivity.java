@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 */
 
 
-/*
+
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
@@ -52,7 +52,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
-   */
+    //Tag tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG
 
+    int myVariable = 1;
+    public double myMethod(int numberOfIceCream) {
+        double iceCreamPrice = 4.50;
+        double total = iceCreamPrice * numberOfIceCream;
+        return total;
+    }
 }
